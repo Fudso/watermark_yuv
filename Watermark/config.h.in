@@ -1,0 +1,11 @@
+#ifndef CONFIG_H_IN
+#define CONFIG_H_IN
+
+    #define DATA_PATH "@DATA_PATH@"
+    #define INPUT_VIDEO "@INPUT_VIDEO@"
+    #define WATERMARK_BMP "@WATERMARK_BMP@"
+    #define OUTPUT_VIDEO "@OUTPUT_VIDEO@"
+    #define YUV_VIDEO_WIDTH @YUV_VIDEO_WIDTH@
+    #define YUV_VIDEO_HEIGHT @YUV_VIDEO_HEIGHT@
+
+#endif
