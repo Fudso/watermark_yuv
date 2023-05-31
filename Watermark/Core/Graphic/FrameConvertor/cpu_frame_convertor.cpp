@@ -46,7 +46,6 @@ std::shared_ptr<Core::IColorConvertor> Core::CPUFrameConvertor::GetColorConverto
 {
 	auto comporator = [=](const ColorConversionTable& table)
 	{
-		auto t = table.SrcPixelFormat == srcPixelFormat && table.DstPixelFormat == dstPixelFormat;
 		return table.SrcPixelFormat == srcPixelFormat && table.DstPixelFormat == dstPixelFormat;
 	};
 
